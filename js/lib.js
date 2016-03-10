@@ -64,9 +64,15 @@ function availableLanguages()
 
 function changeLanguage(language) {
     $("#myLanguage").remove();
-    var src = "http://plugin.softbax.com/json/" + language + "Data.json";
+    var baseURL = getBaseUrl();
+    var src = baseURL + "json/" + language + "Data.json";
     loadScript(language, src, function () {
         loadContent(language);
         sessionStorage.setItem("myLanguage", language);
     });
+}
+
+function getBaseUrl() {
+    var re = new RegExp(/^.*\//);
+    return re.exec(window.location.href);
 }
