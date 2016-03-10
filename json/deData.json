@@ -6,5 +6,9 @@ Content_de = {
 	"hello" : "Hallo",
 	"welcome" : "Herzlich willkommen",
 	"login" : "Anmeldung",
-	"logout" : "Ausloggen"
+	"logout" : "Ausloggen",
+	"user_name" : "Benutzername",
+	"user_pass" : "Passwort",
+	"send" : "Senden",
+	"email" : "E-Mail-Addresse"
 };
