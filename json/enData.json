@@ -6,5 +6,9 @@ Content_en = {
 	"hello" : "Hello",
 	"welcome" : "Welcome",
 	"login" : "Login",
-	"logout" : "Logout"
+	"logout" : "Logout",
+	"user_name" : "User Name",
+	"user_pass" : "Password",
+	"send" : "Send",
+	"email" : "Email Address"
 };
