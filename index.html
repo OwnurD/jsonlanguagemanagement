@@ -50,15 +50,34 @@
 
 	<script type="text/javascript">
 		$(document).ready(function () {
+
+			//Get Base URL
+			//Kök URL alıyoruz
 			var baseURL = getBaseUrl();
+
+			//Get all languages
+			//Bütün dilleri getir
 			var options = loadLanguages();
+
+			//Append language options inside select
+			//Select elementi içine dil seçeneklerini ekleyin
 			$('#languages').html(options);
+
+			//Bootstrap Language Select ( You can remove if you do not want to use )
+			//Bootstrap dil değiştirme ( Eğer kullanmak istemiyorsanız silin )
 			$('.language').selectpicker({
 				style: 'btn-info',
 				size: 4
 			});
+			//Bootstrap Language Select End
+			//Bootstrap dil değiştirme bitiş
 
+			//Check if language json file exist
+			//Dil json dosyası varmı yok mu kontrol ediyoruz
 			var is_exist = sessionStorage.getItem('myLanguage');
+
+			//if not, get trData.json as default and load script
+			//eğer değilse, trData.json dosyasını varsayılan olarak alıyoruz ve scripti yüklüyoruz
 			if (is_exist == null) {
 				var src = baseURL + "/json/trData.json";
 				loadScript("tr", src, function () {
@@ -66,6 +85,8 @@
 					sessionStorage.setItem("myLanguage", "tr");
 				});
 			}
+			//else, get language from sessionStorage and load script again
+			//değilse, sessionStorage den dil değerini alıp scripti tekrar yüklüyoruz
 			else {
 				var language = sessionStorage.getItem("myLanguage");
 				var src = baseURL + "/json/" + language + "Data.json";
@@ -80,11 +101,16 @@
 		});
 	</script>
 	<script type="text/javascript">
+		//Change Language by changing select option
+		//Select option değişimi ile dil değiştirme
 		$('#languages').change(function () {
 			var base = $(this);
 			var language = base.val();
 			changeLanguage(language);
 		});
+
+		//Change Language by click
+		//Tıklama ile dil değiştirme
 		$('.c_languages').click(function () {
 			var base = $(this);
 			var language = base.attr('data-language');
