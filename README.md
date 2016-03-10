@@ -1,7 +1,7 @@
 # json-language-management
 
 
-Demo is available at / Demo bağlantısı : [Demo](plugin.softbax.com/jsonLM)
+Demo is available at / Demo bağlantısı : [Demo](http://plugin.softbax.com/jsonLM){:target="_blank"}
 
 
 #### SUGGESTIONS / ÖNERİLER
