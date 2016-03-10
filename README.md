@@ -1,1 +1,1 @@
-# jsonlanguagemanagement
+# json-language-management
