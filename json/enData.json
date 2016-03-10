@@ -1,0 +1,10 @@
+Content_en = {
+	"home" : "Home",
+	"contact" : "Contact",
+	"products" : "Product",
+	"about_us" : "About Us",
+	"hello" : "Hello",
+	"welcome" : "Welcome",
+	"login" : "Login",
+	"logout" : "Logout"
+};

@@ -1,0 +1,10 @@
+Content_tr = {
+	"home" : "Anasayfa",
+	"contact" : "İletişim",
+	"products" : "Ürünler",
+	"about_us" : "Hakkımızda",
+	"hello" : "Merhaba",
+	"welcome" : "Hoşgeldiniz",
+	"login" : "Giriş",
+	"logout" : "Çıkış"
+};

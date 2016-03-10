@@ -1,0 +1,10 @@
+Content_de = {
+	"home" : "Zuhause",
+	"contact" : "Kontakt",
+	"products" : "Produkte",
+	"about_us" : "Über uns",
+	"hello" : "Hallo",
+	"welcome" : "Herzlich willkommen",
+	"login" : "Anmeldung",
+	"logout" : "Ausloggen"
+};
