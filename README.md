@@ -16,12 +16,18 @@ You can use this for static pages / Statik sayfalarınız için kullanabilirsini
 
 >> Inside lib.js you can manage languages. Inside AvailableLanguages function you can add languages as json format. / lib.js dosyası içinde dilleri yönetebilirsiniz. AvailableLanguages fonksiyonu içerisine json formatında dil seçenekleri ekleyebilirsiniz
 Ex. / Örn.
-var languages = {
-      "en" : "English",
-      "tr" : "Türkçe",
-      "de" : "Deutsche",
-      ...
-    };
+
+`var languages = {`
+
+      `"en" : "English",`
+      
+     ` "tr" : "Türkçe",`
+     
+     ` "de" : "Deutsche",`
+     
+    `  ...`
+    
+  `  };`
     
 >> Use loadLanguages function to append languages options inside select element / loadLanguages fonksiyonunu kullanarak select elementi içerisine dil seçeneklerini ekleyebilirsiniz.
 
