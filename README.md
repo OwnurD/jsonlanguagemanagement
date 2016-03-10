@@ -12,9 +12,9 @@ You can use this for static pages / Statik sayfalarınız için kullanabilirsini
 
 #### HOW TO USE / NASIL KULLANIRIM
 
->> Include lib.js and api.js and jquery library / lib.js ve api.js ve jquery kütüphanesini ekleyin
+>> Include `lib.js` and `api.js` and jquery library / `lib.js` ve `api.js` ve jquery kütüphanesini ekleyin
 
->> Inside lib.js you can manage languages. Inside AvailableLanguages function you can add languages as json format. / lib.js dosyası içinde dilleri yönetebilirsiniz. AvailableLanguages fonksiyonu içerisine json formatında dil seçenekleri ekleyebilirsiniz
+>> Inside `lib.js` you can manage languages. Inside `AvailableLanguages` function you can add languages as json format. / `lib.js` dosyası içinde dilleri yönetebilirsiniz. `AvailableLanguages` fonksiyonu içerisine json formatında dil seçenekleri ekleyebilirsiniz
 Ex. / Örn.
 
 `var languages = {`
@@ -29,9 +29,9 @@ Ex. / Örn.
     
   `  };`
     
->> Use loadLanguages function to append languages options inside select element / loadLanguages fonksiyonunu kullanarak select elementi içerisine dil seçeneklerini ekleyebilirsiniz.
+>> Use `loadLanguages` function to append languages options inside select element / `loadLanguages` fonksiyonunu kullanarak select elementi içerisine dil seçeneklerini ekleyebilirsiniz.
 
->> Call LoadContent function to load language contents / LoadContent fonksiyonunu dil içeriklerini yüklemek için kullanın
+>> Call `LoadContent` function to load language contents / `LoadContent` fonksiyonunu dil içeriklerini yüklemek için kullanın
 
 >> Usage example / Kullanım örneği
 
