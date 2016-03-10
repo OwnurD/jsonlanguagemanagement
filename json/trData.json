@@ -6,5 +6,9 @@ Content_tr = {
 	"hello" : "Merhaba",
 	"welcome" : "Hoşgeldiniz",
 	"login" : "Giriş",
-	"logout" : "Çıkış"
+	"logout" : "Çıkış",
+	"user_name" : "Kullanıcı Adı",
+	"user_pass" : "Şifre",
+	"send" : "Gönder",
+	"email" : "Email Adresi"
 };
