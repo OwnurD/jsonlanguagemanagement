@@ -7,7 +7,9 @@ Demo is available at / Demo bağlantısı : [Demo](http://plugin.softbax.com/jso
 #### SUGGESTIONS / ÖNERİLER
 
 Easy to implement your projects / Projelerinize eklemesi kolaydır.
+
 If you develop a big project, so you should use database to provide multi language / Eğer büyük bir proje geliştiriyorsanız, dil yönetimi için database kullanmanızı öneririm.
+
 You can use this for static pages / Statik sayfalarınız için kullanabilirsiniz.
 
 #### HOW TO USE / NASIL KULLANIRIM
