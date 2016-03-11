@@ -53,9 +53,9 @@ if you use key|value inside data-label, you provide content for related element'
 Eğer key|value data-label içerisinde kullanırsanız, ilişkili elementin value attribute değeri için dil yönetimi sağlarsınız.
 
 
-Copyright and License
+#Copyright and License
 
-Copyright © 2007-2013 M. Alsup.
+##Copyright © 2007-2013 M. Alsup.
 
 The BlockUI plugin is dual licensed under the MIT and GPL licenses.
 
