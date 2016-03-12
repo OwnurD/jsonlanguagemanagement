@@ -91,7 +91,7 @@
 				var language = sessionStorage.getItem("myLanguage");
 				var src = baseURL + "/json/" + language + "Data.json";
 
-				loadScript("tr", src, function () {
+				loadScript(language, src, function () {
 					loadContent(language);
 					sessionStorage.setItem("myLanguage", language);
 				});
