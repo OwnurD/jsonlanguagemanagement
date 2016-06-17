@@ -55,9 +55,9 @@ Eğer key|value data-label içerisinde kullanırsanız, ilişkili elementin valu
 
 #Copyright and License
 
-##Copyright © 2007-2013 M. Alsup.
+##Copyright © 2015-2016
 
-The BlockUI plugin is dual licensed under the MIT and GPL licenses.
+This plugin is dual licensed under the MIT and GPL licenses.
 
 You may use either license. The MIT license is recommended for most projects because it is simple and easy to understand and it places almost no restrictions on what you can do with the plugin.
 
